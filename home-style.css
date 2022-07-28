@@ -1,0 +1,24 @@
+main {
+min-height:calc(100vh - 200px);
+padding-top: 2em;
+}
+
+.rem-body {
+
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+
+
+img  {
+height:300px;
+width:300px;
+border-radius:50%;
+}
+
+.heading {
+display:flex;
+justify-content:center;
+align-items:center;
+}

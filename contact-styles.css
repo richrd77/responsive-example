@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.social > ul {
+    display: flex;
+}
+
+.social > ul > li {
+    margin-left: 20px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+/*Styles for the textboxes (input and Textarea) check the class in HTML Element*/
+.fld {
+    margin: 1.2em 0;
+    display: grid;
+}
+
+.fld > input,
+.fld > textarea {
+    padding: 0.6em;
+    outline: none;
+    border: 1px solid;
+}
+
+/*Styles for button  in the contact form*/
+button {
+    color: black;
+    border: 1px solid black;
+    padding: 0.8em 1.2em;
+    background-color: white;
+    cursor: pointer; /*when u mouse over the button the mouse icon changes to pointer or hand*/
+    outline: none;
+}
+
+/*Styles for button in the contact form when u put mouse over the button then below styles is applied */
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+/*Styles for button in the contact form when u left click mouse button then below styles is applied */
+button:active {
+    box-shadow: 0 0 10px 0 black;
+}
